@@ -20,6 +20,8 @@ background: url(http://files.glencampbell.co/yosemite.jpg) no-repeat center cent
 background-size: cover;
 }
 h1 {
+font-family: helvetica neue, helvetica, arial, sans-serif;
+font-weight: bold;
 color: silver;
 letter-spacing: -1vw;
 position: absolute;
@@ -30,9 +32,27 @@ font-size: 64pt;
 font-size: 12vw;
 padding-right: 20pt;
 }
+a.navbar-brand {
+color: gray;
+}
+a.navbar-brand:hover {
+color: black;
+}
 </style>
 </head>
 <body>
+
+    <div class="navbar navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.glencampbell.co" title="This link takes you to my blog, which has writings and links to more things">more&raquo;</a>
+        </div>
+      </div>
+    </div>
+
     <h1>Broadpool</h1>
+
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
