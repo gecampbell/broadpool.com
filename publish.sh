@@ -1,8 +1,10 @@
 #!/bin/sh
 
-if [ -d site ]; then
-    cd site
+if [ -f index.html ]; then
     aws s3 sync . s3://broadpool.xyz \
+        --exclude "*.*" \
+        --include "*.html" \
+        --include "*.css" \
         --delete \
         --cache-control "max-age=600"
 else
