@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ -f index.html ]; then
-    aws s3 sync . s3://broadpool.xyz \
+    aws s3 sync . s3://broadpool.com \
         --exclude "*.*" \
         --include "*.html" \
         --include "*.css" \
