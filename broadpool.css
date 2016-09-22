@@ -57,7 +57,21 @@ a:hover {
 text-decoration: underline;
 }
 
+#center {
+width: 48em;
+margin-top: 5em;
+margin-left: auto;
+margin-right: auto;
+line-height: 160%;
+}
+#center p {
+margin-bottom: 1em;
+}
+
 footer {
+position: absolute;
+bottom: 1vw;
+left: 1vw;
 font-size: smaller;
 font-style: italic;
 color: #ccc;
