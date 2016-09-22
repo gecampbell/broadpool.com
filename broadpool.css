@@ -1,0 +1,73 @@
+@import url('https://fast.fonts.net/cssapi/5a35d5b7-f434-4e08-804e-b3447396894a.css');
+
+body, html { 
+background: white;
+color: black;
+padding: 0; 
+margin: 0; 
+font-family:'ITC Galliard W01';
+}
+html {
+padding: 1vw;
+}
+h1 {
+font-weight: normal;
+color: #eee;
+font-size: 20vw;
+letter-spacing: -1vw;
+line-height: 100%;
+margin: 0;
+padding: 0 0 3vw 0;
+position: absolute;
+bottom: 0;
+left: 1vw;
+}
+p {
+margin: 0;
+padding: 0;
+padding-left: 2px;
+}
+header, p.title {
+text-transform: lowercase;
+font-variant: small-caps;
+padding-left: 2px;
+}
+ul.info {
+font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+font-size: smaller;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+ul.info li {
+display: inline;
+}
+ul.info li:before {
+content: "\2022  ";
+}
+ul.info li:first-child:before {
+content: "";
+}
+a:link, a:visited {
+color: #039;
+text-decoration: none;
+padding: 2px;
+}
+a:hover {
+text-decoration: underline;
+}
+
+footer {
+font-size: smaller;
+font-style: italic;
+color: #ccc;
+margin-top: .5em;
+}
+footer a:link, footer a:visited {
+padding: 0;
+color: #ccc;
+}
+footer a:hover {
+text-decoration: underline;
+background: inherit;
+}
