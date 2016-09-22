@@ -67,6 +67,10 @@ line-height: 160%;
 #center p {
 margin-bottom: 1em;
 }
+#center img {
+float: right;
+margin: 2em 0 1em 1em;
+}
 
 footer {
 position: absolute;
