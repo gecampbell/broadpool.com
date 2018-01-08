@@ -6,6 +6,7 @@ if [ -f index.html ]; then
         --include "*.html" \
         --include "*.css" \
         --delete \
+        --acl public-read \
         --cache-control "max-age=600"
 else
     echo "You're not in the right directory"
