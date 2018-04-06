@@ -7,8 +7,13 @@ if [ -f index.html ]; then
         --include "*.css" \
         --delete \
         --acl public-read \
-        --cache-control "max-age=600"
+        --cache-control "max-age=60"
 else
     echo "You're not in the right directory"
     exit
+fi
+
+if [ -f hwaet.html ]; then
+    aws s3 cp hwaet.html s3://xn--hwt-zla.com/index.html \
+	--cache-control "max-age=60"
 fi
