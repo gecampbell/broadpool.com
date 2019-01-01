@@ -32,9 +32,6 @@ text-transform: lowercase;
 font-variant: small-caps;
 padding-left: 2px;
 }
-p.title {
-font-size: larger;
-}
 ul.info {
 font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
 font-size: smaller;
