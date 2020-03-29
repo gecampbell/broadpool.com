@@ -32,6 +32,13 @@ text-transform: lowercase;
 font-variant: small-caps;
 padding-left: 2px;
 }
+header {
+border-bottom: 1px silver solid;
+margin-bottom: 2em;
+}
+ul.large {
+list-style-type: square;
+}
 ul.info {
 font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
 font-size: smaller;
